@@ -51,9 +51,14 @@ function App() {
         {activeSection === 'home' && (
           <div className="chat-container">
             <div className="chat-message">
-              <h1>DriveNow - A LIBERDADE AO SEU ALCANCE</h1>
+              <h1><img src={icon} alt="Ícone DriveNow" className="logo" /> A LIBERDADE AO SEU ALCANCE</h1>
+              <br />
               <p>O sistema perfeito para a gestão de frotas de veículos, facilitando o controle de clientes, contratos e reservas.</p>
-              <img src={icon} alt="Ícone DriveNow" className="logo" />
+              <p>Bem-vindos Ao futuro da locação de veículos. 
+              Uma solução inovadora que vai revolucionar a forma como as pessoas acessam e utilizam veículos.</p>
+              <p><br></br> </p>
+              <p><h3>Imagine um sistema que simplifica completamente o processo de locação, oferecendo conveniência, eficiência e uma experiência excepcional para os usuários</h3></p>
+              
             </div>
           </div>
         )}
@@ -66,6 +71,7 @@ function App() {
                 <li><strong>Criação de Perfil:</strong> Registre os dados essenciais de seus clientes, como nome, endereço, telefone e e-mail.</li>
                 <li><strong>Histórico de Alugueis:</strong> Acompanhe o histórico de veículos alugados pelos seus clientes.</li>
                 <li><strong>Atualizações:</strong> Mantenha as informações sempre atualizadas com facilidade.</li>
+                
               </ul>
             </div>
           </div>
